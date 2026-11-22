@@ -1,0 +1,124 @@
+{
+  "splits": {
+    "train": {
+      "csv_rows": 31165,
+      "snapped_fps": 30874,
+      "kept": 30979,
+      "dropped_fps_out_of_range": 68,
+      "dropped_no_keypoints": 118,
+      "clips": 30979,
+      "clips_with_no_label": 7193,
+      "mean_labels_per_clip": 1.767
+    },
+    "val": {
+      "csv_rows": 1741,
+      "snapped_fps": 1732,
+      "kept": 1736,
+      "dropped_fps_out_of_range": 3,
+      "dropped_no_keypoints": 2,
+      "clips": 1736,
+      "clips_with_no_label": 436,
+      "mean_labels_per_clip": 1.726
+    },
+    "test": {
+      "csv_rows": 2357,
+      "snapped_fps": 2335,
+      "kept": 2338,
+      "dropped_fps_out_of_range": 5,
+      "dropped_no_keypoints": 14,
+      "clips": 2338,
+      "clips_with_no_label": 582,
+      "mean_labels_per_clip": 1.718
+    }
+  },
+  "fps_check": {
+    "clips": 495,
+    "exact": 490,
+    "within_5pct": 493,
+    "max_rel_diff": 0.3333
+  },
+  "classes_kept": [
+    "GO",
+    "WANT",
+    "LITTLE-BIT",
+    "THING",
+    "USE",
+    "GOOD",
+    "COME",
+    "LOOK",
+    "TIME",
+    "MUST",
+    "KNOW",
+    "START",
+    "MANY",
+    "TALK",
+    "WORK",
+    "REALLY",
+    "NICE-CLEAN",
+    "DIFFERENT",
+    "TRY",
+    "PEOPLE",
+    "BALL",
+    "HAIR",
+    "FIND",
+    "IMPORTANT",
+    "COLOR",
+    "HELP",
+    "WATER",
+    "THINK",
+    "MAKE",
+    "LONG",
+    "NOW",
+    "FEEL",
+    "FINISH",
+    "EASY",
+    "SMALL",
+    "MAYBE",
+    "TELL",
+    "PLAY",
+    "CAN",
+    "DAY",
+    "REMEMBER",
+    "HARD",
+    "READY",
+    "DRY",
+    "LEARN",
+    "PICK-CHOOSE",
+    "SIT",
+    "STAY",
+    "SAY",
+    "PAINT",
+    "HAPPEN",
+    "WHITE",
+    "MINUTE",
+    "TOUCH",
+    "IX-1p"
+  ],
+  "classes_dropped": {
+    "MEAN": {
+      "train": 161,
+      "val": 8,
+      "test": 4
+    },
+    "BUY": {
+      "train": 237,
+      "val": 11,
+      "test": 4
+    },
+    "PAPER": {
+      "train": 236,
+      "val": 1,
+      "test": 15
+    },
+    "PRACTICE": {
+      "train": 184,
+      "val": 3,
+      "test": 12
+    },
+    "CAR": {
+      "train": 195,
+      "val": 3,
+      "test": 7
+    }
+  }
+}

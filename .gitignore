@@ -1,0 +1,35 @@
+﻿# ---- Python / env ----
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- How2Sign data (license: do NOT redistribute) ----
+data/
+raw/
+downloads/
+*.mp4
+*.tar
+*.tar.gz
+*.zip
+openpose*/
+keypoints*/
+
+# ---- Large generated files ----
+weak/features_*.npz
+weak/feature_stats.npz
+weak/labels_*.json
+annotations/
+checkpoints/
+outputs/
+handover/
+*.pt
+*.pth
+*.npz
+
+# ---- Misc ----
+.vscode/
+.DS_Store
+Thumbs.db
+reports/supervisor_email.md
+reports/weak_results/examples_weak.md
